@@ -1,0 +1,48 @@
+.coul{
+    background-color: hsl(228, 45%, 44%);
+}
+
+.carde{
+  display: inline-block;
+  border-radius: 100%;
+  padding: 10px; /* Ajouter l'espace entre le cadre et l'image */
+ 
+}
+.carde .bo {
+    
+    width: 50%;
+    /* height: auto; */
+    border-radius: 70%; /* Assurez-vous de définir également le bord arrondi sur l'image */
+  }
+ 
+body{
+    min-height: 100vh;
+    place-items: center;
+    margin: 0;
+    display: grid;
+}
+.ava{
+    width: 10%;
+    border-radius: 50%;
+    border:2px solid hsl(0,0%,100%);
+    
+    
+  
+}
+.container {
+    display: flex;
+    transform: translateX(-5%);
+    font-weight: bold;
+    
+  }
+  .tr{
+    transform: translateX(+65%);
+  }
+  
+  .container > div {
+    margin-left:- 10%;
+    margin-right: 25px; /* Ajouter un espace horizontal entre les divs */
+   
+  }
+  
+   
